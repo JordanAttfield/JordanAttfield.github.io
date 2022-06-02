@@ -1,0 +1,249 @@
+/* Home page styling - about me section */
+}
+.aboutme h2 {
+    font-size: 2rem;
+}
+
+
+.topnav {
+
+    float: right;
+    padding-top: 5px;
+
+}
+
+.topnav a {
+    text-decoration: none;
+    color: #F24C4C;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    display: inline; 
+}
+
+h1 a {
+    text-decoration: none;
+    color: #F24C4C;
+    
+}
+h1 a:visited {
+    text-decoration: none;
+    color: #F24C4C
+}
+
+
+#profilepic {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.intro {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #293462
+
+}
+
+
+
+.intro h2 {
+   
+    display: flex;
+    padding: 10%;}
+  
+
+
+    .aboutme h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        color: #F24C4C
+    
+    }
+
+/* Styling for laptop size screen */
+    @media only screen and (min-width: 800px) {
+
+        .intro h2 {
+            font-size: 3em;
+        
+        }
+
+       
+      
+  
+        
+    }
+   
+
+  
+  /* Blog page styling */
+
+  * {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.blogtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogtitle span {
+    color: #EC9B3B;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.blogtitle h3 {
+    font-size: 2.4rem;
+    color: #F24C4C;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blogbox {
+    width: 350px;
+    background-color:white;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.blogimage {
+    width: 100%;
+    height: auto;
+}
+
+.blogimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blogtext {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.blogtext span {
+    color:  #F24C4C;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogtext .blogtitle {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #EC9B3B;
+    align-items:flex-start;
+    
+}
+.blogtext .blogtitle:hover {
+    color:#F24C4C;
+    transition: all ease 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogtext p {
+    color: #9B9B9B;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogtext a {
+    color:#0f0f0f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogtext a:hover {
+    color: #F24C4C;
+    transition: all ease 0.3s;
+}
+
+/* About Me Page Styling */
+
+.aboutmetext {
+
+ padding: 0 2em 0 2em;
+ line-height: 2em;
+ font-family: 'Montserrat', sans-serif
+ 
+}
+
+.aboutmeheading {
+    color: #293462;
+    padding-left: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.About {
+    padding-top: 7%;
+  
+}
+
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    .column {
+        flex: 100%
+        max-width: 100%;
+        padding: 0 4px;
+    }
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .textbox {
+        height: 200px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #EC9B3B;
+        text-align: end;
+        padding-top: 2em;
+        line-height: 1.2em;
+        padding-right: 4px;
+    }
+
