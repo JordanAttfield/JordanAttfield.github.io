@@ -1,14 +1,42 @@
-/* Home page styling - about me section */
+
+/* Homepage styling */
+
+.homepagetext {
+    font-family: 'Montserrat', sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #293462;
+flex: 100%;
+max-width: 100%;
+padding: 0 15%;
+text-align: center;
+
+
 }
+
+.homepage {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
 .aboutme h2 {
     font-size: 2rem;
 }
 
+#profilepic {
+    display: inline-block;
+width: 50%;
+float: right;}
 
+
+/* Component: Navbar Styling - removing hyperlink look, changing font colour/style to suit website theme, creating hover effect.*/
 .topnav {
 
     float: right;
-    padding-top: 5px;
+    padding-top: 3%;
+    padding-bottom: 5%;;
 
 }
 
@@ -18,8 +46,12 @@
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     padding: 1rem;
+    float: right;
+    padding-top: 0;
 }
-
+.topnav a:hover {
+    color: #EC9B3B;
+}
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -37,27 +69,6 @@ h1 a:visited {
 }
 
 
-#profilepic {
-    width: 50%;
-    border-radius: 50%;
-}
-
-.intro {
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #293462
-
-}
-
-
-
-.intro h2 {
-   
-    display: flex;
-    padding: 10%;}
-  
 
 
     .aboutme h2 {
@@ -67,23 +78,8 @@ h1 a:visited {
     
     }
 
-/* Styling for laptop size screen */
-    @media only screen and (min-width: 800px) {
 
-        .intro h2 {
-            font-size: 3em;
-        
-        }
-
-       
-      
-  
-        
-    }
-   
-
-  
-  /* Blog page styling */
+  /* Blog page styling - blog boxes contain one post each, an image, text, date and button */
 
   * {
     box-sizing: border-box;
@@ -212,14 +208,14 @@ a {
     color: #293462;
     padding-left: 1.3em;
     font-family: 'Montserrat', sans-serif;
+   
 }
 
 .About {
-    padding-top: 7%;
+    padding-top: 1%;
+    
   
 }
-
-
 
     .row {
         display: flex;
@@ -229,7 +225,7 @@ a {
     .column {
         flex: 100%
         max-width: 100%;
-        padding: 0 4px;
+        padding: 0 10px;
     }
     .column img {
         margin-top: 8px;
@@ -247,3 +243,131 @@ a {
         padding-right: 4px;
     }
 
+
+    /* Contact Page Styling */
+.icons {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.icons span {
+    padding: 3%;
+ padding-top: 2%;
+  
+}
+
+.contactme {
+    padding-top: 10;
+    text-align: center;
+   font-size: 1.5em;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+   color: #293462;
+  
+}
+
+.resumelink:hover {
+    background-color:#F24C4C;;
+}
+
+.resumelink {
+    text-decoration: none;
+    color: black;
+}
+* {
+    overflow: auto; 
+    }
+
+
+
+    /* Styling for laptop size screen */
+
+    @media only screen and (min-width: 800px) {
+
+        .homepagetext {
+            flex: 50%;
+            max-width: 50%;
+            padding: 0 4px;
+            font-size: 1.8em;
+        }
+        .homepagetext img {
+            height: 80%;
+            width: auto;
+        }
+    .topnav {
+        padding-bottom: 20px;
+    }
+    .contactme h3 {
+        padding-top: 10%;
+      }
+      .aboutmetext {
+          padding-right: 0;
+      }
+      .textbox {
+          padding-top: 6px;
+      }
+
+        .intro h2 {
+            font-size: 3em;
+            padding: 0;
+            padding-left: 7%; 
+        }
+        .topnav {
+
+            float: right;
+            padding-top: 0%;
+            padding-bottom: 2.5%;
+        
+        }
+        
+        .topnav a {
+            text-decoration: none;
+            color: #F24C4C;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 2px;
+            padding: 1rem;
+            padding-top: 0;
+        }
+        .column {
+            flex: 50%;
+            max-width: 50%;
+          }
+
+          
+          .Aboutme {
+              padding-top: 5%;
+            
+                
+          }
+          .textbox {
+              font-size: 1.2rem;
+            
+          }
+          .topnav {
+              padding-top: 1%;
+          }
+
+         
+          .About {
+              padding-top: 0px;
+          }
+
+          #profilepic {
+            display: block;
+            width: 100%;
+        }
+        .homepage {
+            display: flex;
+            flex-wrap: wrap;}
+         
+    
+        .homepagetext {
+            flex: 50%;
+            max-width: 50%;
+            padding: 0 4px;}
+        
+        }
+    
