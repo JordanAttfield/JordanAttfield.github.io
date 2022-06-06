@@ -175,9 +175,6 @@ a {
 .blogtext p {
     color: #9B9B9B;
     font-size: 0.9rem;
-    display: -webkit-box;
-    webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 20px 0px;
@@ -281,7 +278,75 @@ a {
     overflow: auto; 
     }
 
+/* Blog Post styling */
+ 
+.blogposttext{
+    padding: 30px;;
+}
 
+  .blogpostbox {
+    float: left;
+    width: 100%;
+    border: 1px solid #ececec;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  
+
+  .blogpostlist {
+    float: right;
+    width: 100%;
+    padding-left: 20px;
+  
+  }
+  
+  .blogpostimage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .blogpostimage img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+.blogpostbox span {
+    color: #F24C4C;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogpostbox h3 {
+    font-size: 1.3rem;
+    color: #EC9B3B;
+    align-items: flex-start;
+    font-weight: 400rem;
+   font-family: 'Montserrat', sans-serif;
+}
+.card p {
+    color: #9B9B9B;
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 200%;
+    
+}
+.posts {
+    text-align: center;
+    text-transform: uppercase;
+   line-height: 200%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: smaller;
+}
+  
+
+.posts h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
 
     /* Styling for laptop size screen */
 
@@ -368,6 +433,27 @@ a {
             flex: 50%;
             max-width: 50%;
             padding: 0 4px;}
-        
+
+            .blogpostbox {
+                float: left;
+                width: 75%;
+                border: 1px solid #ececec;
+                font-family: 'Montserrat', sans-serif;
+                
+              }
+              
+            
+              .blogpostlist {
+                float: right;
+                width: 25%;
+                padding-left: 20px;
+              
+              }
+              .posts {
+                text-align: center;
+                text-transform: uppercase;
+               line-height: 280%;
+               font-family: 'Montserrat', sans-serif;
+            }
         }
     
