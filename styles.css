@@ -457,3 +457,14 @@ a {
             }
         }
     
+        @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+    .homepagetext {
+     font-size: 1.8rem;}
+
+     .topnav a {
+         font-size: 1.8rem;
+     }
+     h1 {
+         font-size: 3rem;
+     }
+    }
